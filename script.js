@@ -132,7 +132,7 @@ function TimerBarAnimation(adLength) {
 			timerBar.style.display = "none";
 			break;
 		case "bottom":
-			timerBar.style.height = lineThickness + "5px";
+			timerBar.style.height = lineThickness + "px";
 			timerBar.style.bottom = "0px";
 			timerBar.style.left = "0px";
 
@@ -144,7 +144,7 @@ function TimerBarAnimation(adLength) {
 			break;
 
 		case "top":
-			timerBar.style.height = lineThickness + "5px";
+			timerBar.style.height = lineThickness + "px";
 			timerBar.style.top = "0px";
 			timerBar.style.left = "0px";
 
@@ -156,7 +156,7 @@ function TimerBarAnimation(adLength) {
 			break;
 
 		case "left":
-			timerBar.style.width = lineThickness + "5px";
+			timerBar.style.width = lineThickness + "px";
 			timerBar.style.bottom = "0px";
 			timerBar.style.left = "0px";
 
@@ -168,7 +168,7 @@ function TimerBarAnimation(adLength) {
 			break;
 
 		case "right":
-			timerBar.style.width = lineThickness + "5px";
+			timerBar.style.width = lineThickness + "px";
 			timerBar.style.bottom = "0px";
 			timerBar.style.right = "0px";
 
