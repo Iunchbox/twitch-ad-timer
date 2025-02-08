@@ -36,6 +36,7 @@
 
 #timerBar {
 	width: 0px;
+	height: 15px;
 	background-color: #0066C7; 
 	position: absolute;
 }
